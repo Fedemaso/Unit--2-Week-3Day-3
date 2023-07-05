@@ -18,7 +18,7 @@ const getRemoteData = function () {
 
       data.forEach((Element) => {
         let newCol = document.createElement("div");
-        newCol.classList.add("col", "col-3", "mb-5");
+        newCol.classList.add("col", "col-sm-6", "col-md-3", "mb-5");
 
         newCol.innerHTML = `
             <div class="card h-100 "  style="width: 18rem;">
